@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Create Account</title>
+    </head>
+    <style>
+        body{
+            background-color: black;
+        }
+        .center{
+            width: 330px;
+            height: 350px;
+            padding-top: 30px;
+            margin: auto;
+            background-color: #0a1f3c;
+            border-radius: 10px;
+            color: white;
+            font-family: Arial, sans-serif
+        }
+        .center h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .center h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: white;
+        }
+        .center input {
+            display: block;
+            width: 80%;
+            margin: 20px auto;
+            border-radius: 11%;
+            padding: 10px;
+            border: none;
+            background-color: rgb(203, 195, 236);
+            opacity: 0.5;
+            
+            color: black;
+        }
+        .center button {
+            display: block;
+            width: 50%;
+            margin: 10px auto;
+            border-radius: 11%;
+            padding: 10px;
+            border: none;
+            background-color: #6db4ff;
+            color: white;
+            cursor: pointer;
+        }
+        ::placeholder{
+            color: white;
+        }
+        
+    </style>
+    <body>
+        <main>
+            <div class="center">
+                <h1>Welcome</h1>
+                <h2>Let's create your account!</h2>
+                <form>
+                    <input type="text" name="first_name" placeholder="First name">
+                    <input type="text" name="last_name" placeholder="Last name">
+                    <input type="email" name="email" placeholder="Email">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

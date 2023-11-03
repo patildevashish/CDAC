@@ -1,0 +1,4 @@
+abstraction.Human
+abstraction.Animal
+abstraction.LivingThing
+abstraction.Abstraction

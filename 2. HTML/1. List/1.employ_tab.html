@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Employe</title>
+            <style>
+                table{
+                    border: 2px solid black;
+                    height: 40%;
+                    width: 30%;
+                    border-collapse: collapse;
+                    background-color: aquamarine;
+                }
+                table th,td{
+                    border: 2px solid black;
+                    text-align: left;
+                    padding: 4px;
+
+                }
+                form{
+                    
+                    color: black;
+                }
+                body{
+                    background-image: url(01.jpg);
+                    background-size: cover;
+                }
+                div{
+                    height: 200px;
+                    width: 300px;
+                    background-color: darkred;
+                    margin-top: 100px;
+                    margin-left: 40%;
+                    padding-top: 15px;
+                    padding-left: 15px;
+                }
+            </style>
+    </head>
+    <body >
+        <Header style="text-align: center;"><h1>Employee Details</h1> </Header>
+        <main>
+            <table align="center">
+                <tr>
+                    <th > Employee ID </th>
+                    <th> Employee Name </th>
+                    <th> Contact Number </th>
+                    <th> Salary </th>
+                </tr>
+                <tr>
+                    <td> 001 </td>
+                    <td> Devashish Patil</td>
+                    <td> 7447890248 </td>
+                    <td> 1,00,000 </td>
+                </tr>
+                <tr>
+                    <td> 002 </td>
+                    <td> Kshitij Kanake</td>
+                    <td> 9876543210 </td>
+                    <td> 1,00,000 </td>
+                </tr>
+                <tr>
+                    <td> 003 </td>
+                    <td> Sangarsh xyz</td>
+                    <td> 9874563210 </td>
+                    <td> 1,00,000 </td>
+                </tr>
+            </table>
+            <div>
+                <form>
+                    First Name:<input type="text" placeholder="First Name" required><br><br>
+                    Last Name: <input type="text" placeholder="Last Name" required><br><br>
+                    Email: <input type="email" placeholder="Email" required><br><br>
+                    Contact: <input type="number" placeholder="Contact Number" required><br><br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

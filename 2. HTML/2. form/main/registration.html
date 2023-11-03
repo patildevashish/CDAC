@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<style>
+    
+    div{
+        background-color: aqua;
+        width: 400px;
+        margin-top: 100px;
+        margin-left: 250px;
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;    
+    }
+    form{
+        text-align: justify;
+
+    }
+    input[type=button]{
+        background-color: red;
+        margin-left: 200px;
+        width: 70px;
+        
+    }
+    input[type=submit]{
+        background-color: lightgreen;
+    }
+    input[placeholder]{
+        background-color: white;
+        height: 20px;
+        width: 250px;
+    }
+    ul{
+        height: 80px;
+        width: 100%;
+        list-style-type: none;
+        margin-left: 20px;
+        background-color: mediumpurple;
+    }
+    li,a{
+        margin-top: 10px;
+        margin-left: 10px;
+        display: inline-block;
+        text-decoration: none;
+        color: beige;
+    }
+    a:hover{
+        background-color: beige;
+        color: black;
+    }
+
+
+</style>
+<body>
+    <div>
+        <form>
+            <h1>REGISTRATION FORM</h1>
+            <b>First Name :</b> &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter name" required><br><br>
+            <b>Father Name :</b> <input type="text" placeholder="Father name" required><br><br>
+            <b>Last Name :</b> &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Last name" required><br><br>
+            <b>Address :</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="textarea" placeholder="Enter Address" required><br><br>
+            <b>Email_Id :</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" placeholder="Enter your email" required><br><br>
+            <b>Contact :</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" placeholder="Enter your contact" required><br><br>
+            <b>Qualification :</b>
+            <input type="checkbox">BE/B.Tech
+             <input type="checkbox">B.Com
+                            <input type="checkbox">B.Sc
+                            <input type="checkbox">B.A <br><br>
+            <b>Skills :</b>
+                            <select>
+                                <option type = "text" placeholder="TECHNOLOGIES"></option>
+                                <option value="text">HTML</option>
+                                <option value="text">CSS</option>
+                                <option value="text">JAVASCRIPT</option> <br>
+                            </select>
+            <br><br>
+            <b>Gender :</b> 
+            <input type="radio">Male
+            <input type="radio">Female
+            <br><br>
+            <input type="submit" value="Register">
+            <input type="button" value="Cancel">
+        </form>
+    </div>
+    <hr>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#home">Service</a></li>
+        <li><a href="#home">List</a></li>
+        <li><a href="#home">Support</a></li>
+    </ul>
+</body>
+</html>

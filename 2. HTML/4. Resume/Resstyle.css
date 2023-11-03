@@ -1,0 +1,38 @@
+
+body{
+    /* background-color: cornflowerblue; */
+    background-image: url(wp.jpg);
+    background-size: cover;
+}
+
+img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+div{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+table{
+    width: calc(100% + 50px);
+    border-spacing: 100px 0px;
+    margin: 0px -5px;
+    font-size: large;
+}
+
+h1{
+    color: brown;
+    font-size: 80px;
+    text-align: justify;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h4{
+    color: rgb(236, 119, 16);
+}

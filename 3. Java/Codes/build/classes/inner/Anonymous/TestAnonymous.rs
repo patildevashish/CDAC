@@ -1,0 +1,4 @@
+inner.Anonymous.OuterOfAnonymous
+inner.Anonymous.ParentOfAnonymous
+inner.Anonymous.TestAnonymous
+inner.Anonymous.OuterOfAnonymous$1

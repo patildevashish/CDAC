@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class Array{
+	int ja[][] = new int [3][];
+	
+	ja[0] = new int [5];
+	ja[1] = new int [3];
+	ja[2] = new int [4];
+
+	void takeInput (){
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter "+arr[0].length+arr[1].length+arr[2].length"nos");
+		for (int i=0; i<arr.length;i++){
+			for (int j=0; j<arr[i].length;j++){
+				arr[i][j] = sc.nextInt9=();
+			} 
+		}
+	}
+	void showOutput(){
+		System.out.println("\n\nOutput Array is..");
+		for (int i=0; i<arr.length;i++){
+			for (int j=0; j<arr[i].length;j++){
+				System.out.print(arr[i][j]+"\t");
+			}
+			System.out.println();
+		}
+	}
+
+	pulic static void main (String ar[]){
+		Array a = new Array();
+		a.takeInput();
+		a.showOutput();
+	}
+}

@@ -1,0 +1,1 @@
+Write a program which identifies words occuring multiple times on all the lines. if a word is occuring multiple times in different lines.
