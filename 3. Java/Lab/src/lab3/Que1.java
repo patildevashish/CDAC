@@ -1,4 +1,16 @@
+/*
+ WAP in Java to A student appear in examination of five papers each 
+paper contains 50 marks calculate total and percentage of student and 
+display the grades according to the following condition.
+Percentage Grade
+>=90 A+
+80 to 89 A
+70 to 79 B+
+60 to 69 B
+50 to 59 C
+40 to 49 Fail.
 
+*/
 package lab3;
 
 import java.util.Scanner;
