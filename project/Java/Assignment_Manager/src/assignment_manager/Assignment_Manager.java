@@ -100,7 +100,7 @@ public class Assignment_Manager {
             }
         }
     }
-    public static void main(String[] args) {
+    public static void main(String[] args){
        Student s =new Student();
        s.info();
        Trainer t =new Trainer();

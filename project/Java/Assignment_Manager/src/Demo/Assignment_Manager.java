@@ -8,16 +8,16 @@ public class Assignment_Manager {
         Vector<Student> vs = new Vector<>();
         
         Student s = new Student("Deva", 12);
-        vs.add(s);
-
-        for (Student student : vs) {
-            System.out.println(student);
-        }
         
         Vector<Trainer> vt = new Vector<>();
         
         Trainer t = new Trainer("zy");
-        t.toString();
+        vs.add(s);
+        vt.add(t);
+        
+        for (Student student : vs) {
+            System.out.println(student);
+        }
         for (Trainer trainer : vt) {
             System.out.println(trainer);
         }

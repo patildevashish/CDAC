@@ -6,7 +6,7 @@ public class ReadFile {
     void readFile(){
         int i;
         //try with resource
-        try(FileInputStream fin=new FileInputStream("D:\\Study\\Cdac\\3. Java\\Dac_Sept_23\\src\\iotest\\Read.txt")){
+        try(FileInputStream fin=new FileInputStream("D:\\Study\\Cdac\\3. Java\\Codes\\src\\iotest\\Read.txt")){
         do{
             i=fin.read();
             System.out.print((char)i);
