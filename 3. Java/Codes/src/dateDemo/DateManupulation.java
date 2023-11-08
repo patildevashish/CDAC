@@ -13,7 +13,7 @@ public class DateManupulation {
         //for converting date into String
         String strDate = sdf.format(d);
         String rtxDate = rtx.format(d);
-        System.out.println(strDate);
+//        System.out.println(strDate);
         System.out.println(d);
         System.out.println(rtxDate);
         

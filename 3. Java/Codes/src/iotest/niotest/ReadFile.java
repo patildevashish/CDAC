@@ -8,7 +8,7 @@ import java.util.List;
 public class ReadFile {
     public static void main(String[] args) {
         try{
-        Path path=Paths.get("C:\\Users\\OPS\\Desktop\\CDAC\\NioTest\\Ram.txt");
+        Path path=Paths.get("D:\\Storage.txt");
         List<String> lst=Files.readAllLines(path);
         for(String str:lst){
             System.out.println(str);
