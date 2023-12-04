@@ -1,4 +1,3 @@
-
 package Assignment1;
 
 class Outer{

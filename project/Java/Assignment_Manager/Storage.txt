@@ -1,12 +1,8 @@
-Title = Assignment 1
-Date = Wed Nov 08 12:12:52 IST 2023
-Description = Java
-Assignee = Student name = Devashish
-Studdent prnNo = 3
+
+Title = Java
+Date = Fri Nov 17 17:14:21 IST 2023
+Description = Complete
+Assignee = 
+Student name = Ashwin
+Studdent prnNo = 2
 Trainer = Trainer name = XYZ
-Title = Assignment 2
-Date = Wed Nov 08 12:13:25 IST 2023
-Description = C++
-Assignee = Student name = Devashish
-Studdent prnNo = 3
-Trainer = Trainer name = xyz

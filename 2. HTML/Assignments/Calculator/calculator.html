@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <link rel="stylesheet" href="style.css">
@@ -42,4 +42,67 @@
         </div>
     </center>
     </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <div>
+            <table>
+                <tr>
+                    <td colspan="4"><input type="text" id="display" style="width: 370px; height: 50px;"></td>
+                </tr>
+                <tr>
+                    <td><button onclick="appendToDisplay('1')">1</button></td>
+                    <td><button onclick="appendToDisplay('2')">2</button></td>
+                    <td><button onclick="appendToDisplay('3')">3</button></td>
+                    <td><button class="operator" onclick="appendToDisplay('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="appendToDisplay('4')">4</button></td>
+                    <td><button onclick="appendToDisplay('5')">5</button></td>
+                    <td><button onclick="appendToDisplay('6')">6</button></td>
+                    <td><button class="operator" onclick="appendToDisplay('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="appendToDisplay('7')">7</button></td>
+                    <td><button onclick="appendToDisplay('8')">8</button></td>
+                    <td><button onclick="appendToDisplay('9')">9</button></td>
+                    <td><button class="operator" onclick="appendToDisplay('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button class="clear" onclick="clearDisplay()">Clear</button></td>
+                    <td><button onclick="appendToDisplay('0')">0</button></td>
+                    <td><button class="equal" onclick="calculate()">=</button></td>
+                    <td><button class="operator" onclick="appendToDisplay('/')">/</button></td>
+                </tr>
+            </table>
+        </div>
+    </center>
+
+    <script>
+        function appendToDisplay(value) {
+            document.getElementById('display').value += value;
+        }
+
+        function clearDisplay() {
+            document.getElementById('display').value = '';
+        }
+
+        function calculate() {
+            try {
+                document.getElementById('display').value = eval(document.getElementById('display').value);
+            } catch (error) {
+                document.getElementById('display').value = 'Error';
+            }
+        }
+    </script>
+</body>
 </html>

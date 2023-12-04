@@ -1,0 +1,23 @@
+<body onresize=getResize()>
+    
+    <div id="box" style="width: 300px; 
+        height: 400px; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        border: solid black; 
+        box-shadow: 2px 3px 15px black, 4px 5px 15px lightcoral;    
+        text-shadow: 2px 3px 5px black, 4px 5px 5px lightcoral;">    
+        <!-- horizontail vertical blur -->
+            <h1>Hello</h1>
+    </div>
+
+</body>
+
+<script>
+    function getResize() {
+        let box = document.querySelector("#box")
+        box.style.width = "100px"
+        box.style.backgroundColor = "yellow"
+    }
+</script>

@@ -1,0 +1,12 @@
+JSON is a class in javascript having two function: 
+1. parse()      => JSON.parse()
+    JSON => array-object
+2. stringify()  =>JSON.stringify()
+    array-object => JSON
+
+localStorage
+    Method: -
+        1. setItem(key,value)
+        2. getItem(key) it will return value
+        3. removeItem(key) it will remove value
+        4. clear() clear all localStorage data

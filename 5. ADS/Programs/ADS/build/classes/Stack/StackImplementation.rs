@@ -1,3 +1,0 @@
-Stack.StackImplementation
-Stack.MyStack$StackImplementation
-Stack.MyStack

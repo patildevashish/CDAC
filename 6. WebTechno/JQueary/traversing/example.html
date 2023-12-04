@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<script>
+    $(document).ready(function()
+    {
+        $("button").click(function()
+        {
+            $(this).parent().css({"border":"3px red solid"})
+        })
+    })
+
+
+</script>
+<style>
+    div,span{
+        padding: 30px;
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <div class="div1">
+        <button>Click</button>
+        <div class="div2">
+            <button>Click</button>
+            <div class="div3">
+                <button>Click</button>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>

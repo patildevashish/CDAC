@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<style>
+    .box{
+        height: 300px;
+        width: 500px;
+        background-color: navy;
+        border-radius: 20px;
+    }
+</style>
+<script>
+    $(document).ready(function(){
+        $("#btnFadeIn").click(function(){
+            $("#box").fadeIn()
+        })
+
+        $("#btnFadeOut").click(function(){
+            $("#box").fadeOut()
+        })
+
+        $("#btnFadeToggle").click(function(){
+            $("#box").fadeToggle()
+        })
+    })
+</script>
+<body>
+    <div id="box" class="box">
+
+    </div>
+    <button id="btnFadeIn">Fade-In</button>
+    <button id="btnFadeOut">Fade-out</button>
+    <button id="btnFadeToggle">Fade-Toggle</button>
+    <!-- . => for class
+    # =>id -->
+</body>
+</html>

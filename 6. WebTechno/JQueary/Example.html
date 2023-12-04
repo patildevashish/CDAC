@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <style>
+        .box{
+            height: 200px;
+            width: 400px;
+            background-color: aqua;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function(){
+            $("#btnHide").click(function(){
+                $("#box").hide()
+            })
+
+            $("#btnShow").click(function(){
+                $("#box").show()
+            })
+
+            $("#btnToggle").click(function(){
+                $("#box").toggle()
+            })
+        })
+    </script>
+</head>
+<body>
+    <pre>
+        Jquery is an API of Javascript
+        download Jquery file from Jquery.com website
+        add this file in html page using script tag => offline
+        or use CDN(content Delivery Network)    => online
+    </pre>
+
+    <div id="box" class="box">
+        
+    </div>
+    <button id="btnHide">Hide</button>
+    <button id="btnShow">Show</button>
+    <button id="btnToggle">Toggle</button>
+</body>
+</html>
+

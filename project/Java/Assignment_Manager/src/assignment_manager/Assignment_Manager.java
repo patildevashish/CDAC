@@ -34,7 +34,7 @@ class Student{
     }
 
     public String toString() {
-        return "Student name = " + name + "\nStuddent prnNo = " + prnNo;
+        return "\nStudent name = " + name + "\nStuddent prnNo = " + prnNo;
     }
 }
 
@@ -65,6 +65,7 @@ class Assignment{
     private String description;
     private Student assignee;
     private Trainer trainer;
+    
 
     public Assignment(String title, Date date, String description, Student assignee, Trainer trainer) {
         this.title = title;
@@ -116,7 +117,7 @@ class Assignment{
 
     @Override
     public String toString() {
-        return "Title = " + title + "\nDate = " + date + "\nDescription = " + description + "\nAssignee = " + assignee + "\nTrainer = " + trainer;
+        return "\nTitle = " + title + "\nDate = " + date + "\nDescription = " + description + "\nAssignee = " + assignee + "\nTrainer = " + trainer;
     }
 }
 public class Assignment_Manager {
@@ -212,7 +213,6 @@ public class Assignment_Manager {
     
     
     public static void main(String[] args) {
-        boolean exit = false;
         
         System.out.println("Welcome to the Assignment Manager!");
         System.out.println("Please choose an option:");

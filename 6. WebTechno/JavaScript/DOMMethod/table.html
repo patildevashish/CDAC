@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function addListItem() {
+            let table = document.querySelector("#table");
+            let tr = document.createElement("tr");
+            let td = document.createElement("td"); // Create a td element
+            let text = document.createTextNode(prompt("Enter text"));
+            td.appendChild(text);
+            tr.appendChild(td);
+            table.appendChild(tr);
+        }
+
+        function addOption() {
+            let selectBox = document.querySelector("#selectBox")
+            let op = document.createElement("option")
+            let text = document.createTextNode(prompt("Enter city name"))
+            op.appendChild(text)
+            op.value=prompt("Enter value")
+            selectBox.appendChild(op)
+        }
+    </script>
+</head>
+<body>
+    <table id="table" style="border: solid black;">
+        <tr>
+            <td>Hello</td>
+        </tr>
+    </table>
+    
+    <button onclick="addListItem()">Add To List</button>
+    <br><br><br>
+    <select id="selectBox">
+        <option value="ngp">Nagpur</option>
+    </select>
+    <button onclick="addOption()">Add option</button>
+</body>
+</html>

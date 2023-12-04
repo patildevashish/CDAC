@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    div{
+        text-align: center;
+        margin-top: 150px;
+        
+    }
+
+    body{
+        background-image: url(https://cdn.wallpapersafari.com/6/24/6v4nA9.jpg);
+        background-size: cover;
+    }
+
+    h1{
+        color: coral;
+    }
+
+    input{
+        border: solid black;
+        width: 250px;
+        height: 25px;
+    }
+
+    button{
+        width: 100px;
+        height: 25px;
+    }
+
+    marquee{
+        color: darkred;
+    }
+
+</style>
+
+<script>
+    function login() {
+        serverEmail = "xyz@gmail.com"
+        serverPass = "Deva22"
+        var nameText = document.getElementById("username")
+        var username = nameText.value
+        var pass = document.getElementById("password")
+        var password = pass.value
+
+        if (username == serverEmail && password == serverPass) {
+            alert("login successful")
+            window.open("cv.html")
+        }
+        else
+            alert("Wrng information")
+    }
+</script>
+<body>
+    <marquee><h4>Note: - Site is under construction</h4></marquee>
+    <div>
+        <FORM>
+            <header><H1>LOGIN FORM</H1></header>
+            <input type="email" placeholder="Enter your useremail" id="username"><br><br>
+            <input type="password" placeholder="Enter your password" id="password"><br><br>
+            <button onclick="login()">Login</button>
+        </FORM>
+    </div>
+</body>
+</html>

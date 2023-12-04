@@ -1,0 +1,20 @@
+<script>
+    let arr=[2,8,14,44,55,99,102,55]
+
+    // array.splice(index,remove-count,values-1,values-2,........)
+    arr.splice(3,0,25)
+    console.log(arr)
+
+    arr.splice(5,1,100)
+    console.log(arr)
+
+    arr.splice(length-1,0,110)
+    console.log(arr)
+
+    
+    console.log(arr.slice(2,6))
+
+    console.log("Index of 100 =",arr.indexOf(100))
+    console.log("Index of 100 =",arr.indexOf(100,4))
+    // indexOf(item,offset) offset means search from index default is 0
+</script>

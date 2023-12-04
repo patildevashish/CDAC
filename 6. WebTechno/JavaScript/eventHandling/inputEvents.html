@@ -1,0 +1,40 @@
+<script>
+    function change(inputbox) {
+        console.log(Math.sqrt(parseInt(inputbox.value)))
+    }
+
+    function funChange(dropdown) {
+        alert(dropdown.value)
+    }
+
+    function isChecked(checkbox) {
+        // console.log(checkbox.checked+"....."+checkbox.value)
+        let btn = document.querySelector("#btn")
+        if (checkbox.checked) {
+            btn.disabled = false
+            btn.style.backgroundColor = "green"
+            btn.innerHTML="thanks :-)"
+            
+        }
+        else{
+            btn.disabled = false
+            btn.style.backgroundColor = "red"
+            btn.innerHTML="please enable me :-("
+        }
+    }
+
+    d = new Date()
+    console.log(d)
+</script>
+
+<input type="number" onchange="change(this)">
+
+<select onchange="funChange(this)"multiple>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+</select>
+
+check me: <input type="checkbox" onchange="isChecked(this)" value="Hello">
+
+<button id="btn" style="color: black; ;">Checked</button>

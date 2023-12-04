@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(document).ready(function()
+        {
+            $(".div1").children().css({"border":"3px green solid"}) //direct children => .div2 and p will select
+        })
+
+
+    </script>
+    <style>
+        div,span{
+            padding: 30px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        downward =>  children(), find()
+    </pre>
+
+    <div class="div1">
+        <div class="div2">
+            <div class="div3">
+                <span>
+                    This is span..!!!!
+                </span>
+            </div>    
+        </div>
+        <p>
+            hello this is para
+        </p>
+    </div>
+</body>
+</html>

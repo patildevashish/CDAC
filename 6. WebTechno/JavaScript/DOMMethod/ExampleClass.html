@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p class="para1">hellooo 1</p>
+    <p class="para1">hellooo 2</p>
+
+    <p class="para2">hellooo world</p>
+
+    <p class="para1">hellooo 3</p>
+
+    <p class="para2">hellooo world 2</p>
+
+    <p class="para1">hellooo 4</p>
+
+    <p class="para2">hellooo world 3</p>
+
+    <script>
+        const arrPara1 = Array.from(document.getElementsByClassName("para1"))
+        const arrPara2 = Array.from(document.getElementsByClassName("para2"))
+
+        arrPara1.forEach(function(e) {
+            console.log(e.innerHTML)
+            e.style.backgroundColor="red"
+            e.style.textAlign="center"
+        });
+
+        console.log("..............................")
+        arrPara2.forEach(function(e) {
+            console.log(e.innerHTML)
+            e.style.backgroundColor="yellow"
+            e.style.textAlign="center"
+        });
+    </script>
+</body>
+
+</html>
